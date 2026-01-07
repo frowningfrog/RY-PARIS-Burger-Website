@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    background-color: orange;
+    justify-content: space-between;
+    margin: -0.5em;
+}
+.logo {
+    display: inline-flex;
+    margin-left: 4em;
+}
+.menu {
+    margin-right: 4em;
+}
+.menu a {
+    padding: 1em;
+    color: black;
+    font-size: 1.5em;
+    margin-top: 0.8em;
+    text-decoration: none;
+    display: inline-block;
+}
