@@ -4,9 +4,12 @@ header {
     justify-content: space-between;
     margin: -0.5em;
 }
-.logo {
+#logo {
     display: inline-flex;
-    margin-left: 4em;
+    margin-left: 2em;
+    width: 25vw;
+    height: 50%;
+    max-width: 333px;
 }
 .menu {
     margin-right: 4em;
@@ -14,8 +17,31 @@ header {
 .menu a {
     padding: 1em;
     color: black;
-    font-size: 1.5em;
-    margin-top: 0.8em;
+    font-size: 1em;
+    margin-top: 1.5em;
     text-decoration: none;
     display: inline-block;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero {
+    position: relative;
+}
+#hero {
+    margin-top: 0.5em;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    height: 45vh;
+    overflow: hidden;
+}
+.hero p {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: -6em;
+    padding: 12px;
+    font-size: 25px;
+    font-weight: 900;
+    background-color: white;
 }
