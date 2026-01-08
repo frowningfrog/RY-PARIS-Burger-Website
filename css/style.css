@@ -3,14 +3,10 @@ header {
     background-color: orange;
     justify-content: space-between;
     margin: -0.5em;
-}
-footer {
-    display: flex;
-    background-color: orange;
-    justify-content: space-between;
-    margin: -0.5em;
     padding-right: 4em;
-    padding-left: 4em;
+}
+header .menu {
+    padding-top: 1em;
 }
 #logo {
     display: inline-flex;
@@ -19,15 +15,12 @@ footer {
     height: 50%;
     max-width: 333px;
 }
-.menu {
-    margin-right: 4em;
-}
 .menu a {
     padding: 1em;
     color: black;
     font-size: 1em;
-    margin-top: 2.5em;
     text-decoration: none;
+    padding-top: 5%;
     display: inline-block;
 }
 body {
@@ -106,4 +99,14 @@ p {
     border: 6px;
     border-style: solid;
     border-color: lightgray;
+}
+footer {
+    display: flex;
+    background-color: orange;
+    justify-content: space-between;
+    margin: -0.5em;
+    padding-right: 4em;
+    padding-left: 4em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
 }
