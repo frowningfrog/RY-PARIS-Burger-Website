@@ -18,7 +18,7 @@ header {
     padding: 1em;
     color: black;
     font-size: 1em;
-    margin-top: 1.5em;
+    margin-top: 2.5em;
     text-decoration: none;
     display: inline-block;
 }
@@ -44,4 +44,8 @@ body {
     font-size: 25px;
     font-weight: 900;
     background-color: white;
+}
+.cats {
+    margin-left: 3em;
+    margin-right: 3em;
 }
