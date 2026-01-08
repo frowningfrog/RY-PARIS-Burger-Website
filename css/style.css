@@ -32,8 +32,8 @@ body {
     margin-top: 0.5em;
     width: 100%;
     height: auto;
-    object-fit: cover;
     height: 45vh;
+    object-fit: cover;
     overflow: hidden;
 }
 .hero p {
@@ -48,4 +48,24 @@ body {
 .cats {
     margin-left: 3em;
     margin-right: 3em;
+}
+#everyday {
+    font-weight: 800;
+}
+p {
+    font-size: larger;
+}
+.meals {
+    display: flex;
+    justify-content: space-between;
+}
+.meals img {
+    object-fit: cover;
+    overflow: hidden;
+    width: 25vw;
+    height: 75%;
+}
+.meals p {
+    text-align: center;
+    font-size: 18px;
 }
