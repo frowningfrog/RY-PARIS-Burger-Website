@@ -4,6 +4,14 @@ header {
     justify-content: space-between;
     margin: -0.5em;
 }
+footer {
+    display: flex;
+    background-color: orange;
+    justify-content: space-between;
+    margin: -0.5em;
+    padding-right: 4em;
+    padding-left: 4em;
+}
 #logo {
     display: inline-flex;
     margin-left: 2em;
@@ -87,4 +95,15 @@ p {
     object-fit: fill;
     width: 20vw;
     height: auto;
+}
+#where {
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+#border img {
+    border: 6px;
+    border-style: solid;
+    border-color: lightgray;
 }
