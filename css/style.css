@@ -45,12 +45,15 @@ body {
     font-weight: 900;
     background-color: white;
 }
-.cats {
-    margin-left: 3em;
-    margin-right: 3em;
+#cats {
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
-#everyday {
+.title {
     font-weight: 800;
+    line-height: 1em;
 }
 p {
     font-size: larger;
@@ -68,4 +71,20 @@ p {
 .meals p {
     text-align: center;
     font-size: 18px;
+    line-height: 3em;
+    margin-top: -0.2em;
+    background-color: white;
+}
+#weekly {
+    background-color: lightgray;
+    margin: -0.5em;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+#weekly img {
+    object-fit: fill;
+    width: 20vw;
+    height: auto;
 }
