@@ -138,20 +138,22 @@ p {
 }
 #stars {
     color: brown;
-    font-size: 1em;
-    margin-top: 6px;
+    font-size: 1.25em;
+    margin-top: 3px;
 }
 .center {
     text-align: center;
 }
-.reviews {
+.row {
     display: inline-flex;
-    margin-top: 0em;
-    padding-top: 0em;
+    margin: 0;
 }
 button {
     color: white;
     background-color: brown;
+    width: 9em;
+    height: 3em;
+    border-radius: 3em;
 }
 footer {
     display: flex;
