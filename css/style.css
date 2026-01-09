@@ -154,6 +154,17 @@ button {
     width: 9em;
     height: 3em;
     border-radius: 3em;
+    margin-bottom: 3em;
+}
+#pg {
+    background-color: lightgray;
+    color: rgb(66, 66, 66);
+    margin-left: 4em;
+    margin-right: 4em;
+    padding-left: 6em;
+    padding-right: 6em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 footer {
     display: flex;
