@@ -9,6 +9,27 @@ header {
 header .menu {
     padding-top: 1em;
 }
+.info {
+    background-color: lightgray;
+    margin: -0.5em;
+    padding-right: 40%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 4em;
+    line-height: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.same {
+    display: flex;
+    font-size: small;
+}
+.bold {
+    font-weight: 600;
+}
+.down {
+    margin-top: 2.4em;
+}
 #logo {
     display: inline-flex;
     margin-left: 2em;
@@ -29,6 +50,7 @@ body {
 }
 .hero {
     position: relative;
+    z-index: -1;
 }
 #hero {
     margin-top: 0.5em;
@@ -110,4 +132,7 @@ footer {
     padding-left: 4em;
     padding-top: 1.5em;
     padding-bottom: 1.5em;
+}
+#bold {
+    font-weight: 900;
 }
